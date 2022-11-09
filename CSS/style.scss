@@ -17,3 +17,45 @@ $color6: #00438F;
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: $White;
+
+    header{
+        // Colors
+        background: rgb(17,101,197);
+        background: linear-gradient(180deg, rgba(17,101,197,1) 0%, rgba(39,140,255,1) 100%);
+        color: $White;
+
+        // Position
+        display: flex;
+        align-items: center;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+
+        h1{
+            display: flex;
+            justify-content: left;
+            width: 80%;
+            margin-left: 7%;           
+        }
+
+        .buttons{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 7%;
+            width: 30%;
+
+            a{ 
+                text-decoration: none;
+                color: $color1;
+                background-color: $White;
+                font-weight: bold;
+                font-size: 20px;
+                padding: 1%;
+                padding-left: 3%; padding-right: 3%;
+                border-radius: 5px;
+            }
+        }
+    }
+}
