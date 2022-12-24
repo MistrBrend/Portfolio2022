@@ -1,0 +1,33 @@
+// Colors
+$mainColor1: #1A40E2;
+$mainColor2: #3EAAE7;
+
+$lightMainColor1: #6978CE;
+$lightMainColor2: #7CDFEE;
+
+$WebBackgroundColor: #111111;
+$ContentBackgroundColor: #0E0D0D;
+
+$Grey: #767676;
+$white: #fff;
+
+// Font sizes
+$fontSize1: 2.813rem;
+$fontSize2: 2.188rem;
+$fontSize3: 1.875rem;
+$fontSize4: 1.563rem;
+$fontSize5: 1.25rem;
+$fontSize6: 1.0rem;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $WebBackgroundColor;
+
+    header{
+        background-color: $ContentBackgroundColor;
+    }
+}
