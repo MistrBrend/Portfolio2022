@@ -12,12 +12,12 @@ $Grey: #767676;
 $white: #fff;
 
 // Font sizes
-$fontSize1: 2.813rem;
-$fontSize2: 2.188rem;
-$fontSize3: 1.875rem;
-$fontSize4: 1.563rem;
-$fontSize5: 1.25rem;
-$fontSize6: 1.0rem;
+$fontSize1: 2.813rem; // 45px
+$fontSize2: 2.188rem; // 35px
+$fontSize3: 1.875rem; // 30px
+$fontSize4: 1.563rem; // 25px
+$fontSize5: 1.25rem;  // 20px
+$fontSize6: 1.0rem;   // 15px
 
 *{
     margin: 0;
@@ -26,8 +26,91 @@ $fontSize6: 1.0rem;
 
 body{
     background-color: $WebBackgroundColor;
+    font-family: "Poppins", sans-serif;
 
+    //Navigation bar
     header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-bottom: 2px solid $Grey;
+        box-shadow: 0 4px 2px -2px $WebBackgroundColor;
         background-color: $ContentBackgroundColor;
+        font-weight: bold;
+        padding: 2%;
+
+        a{
+            text-decoration: none;
+            font-size: $fontSize4;
+            color: $mainColor2;
+        }
+        .hover:hover{
+            color: $lightMainColor2;
+        }
+
+        .nav-title{
+            font-size: $fontSize2;
+            color: $mainColor1;
+            flex-grow: 3;
+            padding-left: 6%;
+        }
+
+        .JC-Right{
+            display: flex;
+            justify-content: right;
+        }
+        .aboutButton{
+            flex-grow: 0.6;
+        }
+        .projectsButton{
+            flex-grow: 0.6;
+        }
+        .contactButton{
+            flex-grow: 0.6;
+            padding-right: 6%;
+        }
+    }// End Navigation
+
+    // Front page
+    .front-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10%;
+
+        .section1{
+            font-weight: bold;
+            background-color: red;
+
+            .text1{
+                color: $white;
+                font-size: $fontSize2;
+            }
+            .text2{
+                font-size: $fontSize1;
+                background-color: transparent;
+                background-image: linear-gradient(45deg, $mainColor1, $mainColor2);
+                background-size: 50%;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent; 
+                -moz-text-fill-color: transparent;
+            }
+            hr{
+                border: 1px solid $Grey;
+                width: 50%;
+            }
+            .text3{
+
+            }
+            .text4{
+                width: 50%;
+            }
+        }
+        .section2{
+            background-color: blue;
+        }
     }
 }

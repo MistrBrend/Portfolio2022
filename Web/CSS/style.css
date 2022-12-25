@@ -5,7 +5,77 @@
 
 body {
   background-color: #111111;
+  font-family: "Poppins", sans-serif;
 }
 body header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #767676;
+  box-shadow: 0 4px 2px -2px #111111;
   background-color: #0E0D0D;
+  font-weight: bold;
+  padding: 2%;
+}
+body header a {
+  text-decoration: none;
+  font-size: 1.563rem;
+  color: #3EAAE7;
+}
+body header .hover:hover {
+  color: #7CDFEE;
+}
+body header .nav-title {
+  font-size: 2.188rem;
+  color: #1A40E2;
+  flex-grow: 3;
+  padding-left: 6%;
+}
+body header .JC-Right {
+  display: flex;
+  justify-content: right;
+}
+body header .aboutButton {
+  flex-grow: 0.6;
+}
+body header .projectsButton {
+  flex-grow: 0.6;
+}
+body header .contactButton {
+  flex-grow: 0.6;
+  padding-right: 6%;
+}
+body .front-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+body .front-page .section1 {
+  font-weight: bold;
+  background-color: red;
+}
+body .front-page .section1 .text1 {
+  color: #fff;
+  font-size: 2.188rem;
+}
+body .front-page .section1 .text2 {
+  font-size: 2.813rem;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #1A40E2, #3EAAE7);
+  background-size: 50%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+body .front-page .section1 hr {
+  border: 1px solid #767676;
+  width: 50%;
+}
+body .front-page .section1 .text4 {
+  width: 50%;
+}
+body .front-page .section2 {
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */
