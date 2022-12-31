@@ -12,12 +12,14 @@ $Grey: #767676;
 $white: #fff;
 
 // Font sizes
-$fontSize1: 2.813rem; // 45px
-$fontSize2: 2.188rem; // 35px
-$fontSize3: 1.875rem; // 30px
-$fontSize4: 1.563rem; // 25px
-$fontSize5: 1.25rem;  // 20px
-$fontSize6: 1.0rem;   // 15px
+$fontSize1: 3.5rem;     //
+$fontSize2: 3.1rem;     //
+$fontSize3: 2.813rem;   // 45px
+$fontSize4: 2.188rem;   // 35px
+$fontSize5: 1.875rem;   // 30px
+$fontSize6: 1.563rem;   // 25px
+$fontSize7: 1.25rem;    // 20px
+$fontSize8: 1.0rem;     // 15px
 
 *{
     margin: 0;
@@ -75,14 +77,13 @@ body{
     // Front page
     .front-page{
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
 
         margin-top: 10%;
 
         .section1{
             font-weight: bold;
-            background-color: red;
 
             .text1{
                 color: $white;
@@ -92,25 +93,39 @@ body{
                 font-size: $fontSize1;
                 background-color: transparent;
                 background-image: linear-gradient(45deg, $mainColor1, $mainColor2);
-                background-size: 50%;
+                background-size: 45%;
                 -webkit-background-clip: text;
                 -moz-background-clip: text;
                 -webkit-text-fill-color: transparent; 
                 -moz-text-fill-color: transparent;
+
+                margin-top: -2%;
+                padding-bottom: 2%;
             }
             hr{
                 border: 1px solid $Grey;
-                width: 50%;
+                width: 40%;
             }
             .text3{
+                display: flex;       
+                font-size: $fontSize6;
+                padding-top: 0.3%;
+                padding-bottom: 0.3%;
 
+                .frontend{color: $lightMainColor1;}
+                .slash{color: $Grey; font-size: $fontSize6;}
+                .designer{color: $lightMainColor2;}
             }
             .text4{
-                width: 50%;
+                color: $Grey;
+                width: 40%;
+                padding-top: 3%;
             }
         }
         .section2{
-            background-color: blue;
+            background-color: $ContentBackgroundColor;
+            border-radius: 5px;
+            border: 2px solid $Grey;
         }
     }
 }

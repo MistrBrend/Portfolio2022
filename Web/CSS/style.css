@@ -19,14 +19,14 @@ body header {
 }
 body header a {
   text-decoration: none;
-  font-size: 1.563rem;
+  font-size: 2.188rem;
   color: #3EAAE7;
 }
 body header .hover:hover {
   color: #7CDFEE;
 }
 body header .nav-title {
-  font-size: 2.188rem;
+  font-size: 3.1rem;
   color: #1A40E2;
   flex-grow: 3;
   padding-left: 6%;
@@ -47,35 +47,56 @@ body header .contactButton {
 }
 body .front-page {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: 10%;
 }
 body .front-page .section1 {
   font-weight: bold;
-  background-color: red;
 }
 body .front-page .section1 .text1 {
   color: #fff;
-  font-size: 2.188rem;
+  font-size: 3.1rem;
 }
 body .front-page .section1 .text2 {
-  font-size: 2.813rem;
+  font-size: 3.5rem;
   background-color: transparent;
   background-image: linear-gradient(45deg, #1A40E2, #3EAAE7);
-  background-size: 50%;
+  background-size: 45%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  margin-top: -2%;
+  padding-bottom: 2%;
 }
 body .front-page .section1 hr {
   border: 1px solid #767676;
-  width: 50%;
+  width: 40%;
+}
+body .front-page .section1 .text3 {
+  display: flex;
+  font-size: 1.563rem;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+}
+body .front-page .section1 .text3 .frontend {
+  color: #6978CE;
+}
+body .front-page .section1 .text3 .slash {
+  color: #767676;
+  font-size: 1.563rem;
+}
+body .front-page .section1 .text3 .designer {
+  color: #7CDFEE;
 }
 body .front-page .section1 .text4 {
-  width: 50%;
+  color: #767676;
+  width: 40%;
+  padding-top: 3%;
 }
 body .front-page .section2 {
-  background-color: blue;
+  background-color: #0E0D0D;
+  border-radius: 5px;
+  border: 2px solid #767676;
 }/*# sourceMappingURL=style.css.map */
