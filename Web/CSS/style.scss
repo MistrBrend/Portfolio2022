@@ -72,9 +72,9 @@ body{
             flex-grow: 0.6;
             padding-right: 6%;
         }
-    }// End Navigation
+    }// end | Navigation
 
-    // Front page
+    // Front-page
     .front-page{
         display: flex;
         justify-content: center;
@@ -128,4 +128,5 @@ body{
             border: 2px solid $Grey;
         }
     }
+    // end | Front-Page
 }
