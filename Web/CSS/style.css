@@ -19,14 +19,14 @@ body header {
 }
 body header a {
   text-decoration: none;
-  font-size: 2.188rem;
+  font-size: 1.563rem;
   color: #3EAAE7;
 }
 body header .hover:hover {
   color: #7CDFEE;
 }
 body header .nav-title {
-  font-size: 3.1rem;
+  font-size: 2.188rem;
   color: #1A40E2;
   flex-grow: 3;
   padding-left: 6%;
@@ -96,6 +96,8 @@ body .front-page .section1 .text4 {
   padding-top: 3%;
 }
 body .front-page .section2 {
+  display: flex;
+  justify-content: center;
   background-color: #0E0D0D;
   border-radius: 5px;
   border: 2px solid #767676;

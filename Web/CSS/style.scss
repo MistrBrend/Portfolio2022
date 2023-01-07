@@ -44,7 +44,7 @@ body{
 
         a{
             text-decoration: none;
-            font-size: $fontSize4;
+            font-size: $fontSize6;
             color: $mainColor2;
         }
         .hover:hover{
@@ -52,7 +52,7 @@ body{
         }
 
         .nav-title{
-            font-size: $fontSize2;
+            font-size: $fontSize4;
             color: $mainColor1;
             flex-grow: 3;
             padding-left: 6%;
@@ -123,6 +123,9 @@ body{
             }
         }
         .section2{
+            display: flex;
+            justify-content: center;
+
             background-color: $ContentBackgroundColor;
             border-radius: 5px;
             border: 2px solid $Grey;
