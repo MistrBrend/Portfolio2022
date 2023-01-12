@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,6 +12,9 @@ body header {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   border-bottom: 2px solid #767676;
   box-shadow: 0 4px 2px -2px #111111;
   background-color: #0E0D0D;
@@ -101,4 +105,8 @@ body .front-page .section2 {
   background-color: #0E0D0D;
   border-radius: 5px;
   border: 2px solid #767676;
+}
+body .about-page {
+  background-color: grey;
+  height: 200vh;
 }/*# sourceMappingURL=style.css.map */

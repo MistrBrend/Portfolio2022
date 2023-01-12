@@ -37,6 +37,10 @@ body{
         align-items: center;
         justify-content: center;
 
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+
         border-bottom: 2px solid $Grey;
         box-shadow: 0 4px 2px -2px $WebBackgroundColor;
         background-color: $ContentBackgroundColor;
@@ -131,6 +135,13 @@ body{
             border-radius: 5px;
             border: 2px solid $Grey;
         }
-    }
-    // end | Front-Page
+    }// end | Front-Page
+
+    // About-page
+    .about-page{
+
+        background-color: grey;
+        height: 200vh;
+
+    }// end | About-page
 }
